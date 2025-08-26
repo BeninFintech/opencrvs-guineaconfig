@@ -2361,7 +2361,6 @@ v2.birth.search.criteria.label.prefix.informant,Informant prefix,Informant's,Du 
 v2.birth.search.criteria.label.prefix.mother,Mother prefix,Mother's,De la mère
 v2.buttons.archive,Archive button text,Archive,Archiver
 v2.buttons.back,Back button text,Back,Retour
-v2.buttons.backToReview,Back to review button text,Back to review,Retour à la revue
 v2.buttons.cancel,Cancel button text in the modal,Cancel,Annuler
 v2.buttons.change,The label for the change button,Change,Changer
 v2.buttons.changeAll,The label for the change all button,Change all,Changer tous
@@ -2369,6 +2368,7 @@ v2.buttons.confirm,Confirm button,Confirm,Confirmer
 v2.buttons.continue,Continue Button Text,Continue,Continuer
 v2.buttons.edit,Edit button text,Edit,Éditer
 v2.buttons.exit,Label for Exit button on EventTopBar,Exit,Quitter
+v2.buttons.goToReview,Go to review button text,Go to review,Aller à la révision
 v2.buttons.print,Print button text,Print,Imprimer
 v2.buttons.saveExit,The label for the save and exit button,Save & Exit,Enregistrer et quitter
 v2.buttons.search,The title of search input submit button,Search,Rechercher
