@@ -12,7 +12,6 @@
 import { Request, ResponseToolkit } from '@hapi/hapi'
 import { applicationConfig } from './application-config'
 import { readCSVToJSON } from '@countryconfig/utils'
-import { Request, ResponseToolkit } from '@hapi/hapi'
 
 export interface Employee {
   primaryOfficeId: string
