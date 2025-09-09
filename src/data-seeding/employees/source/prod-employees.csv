@@ -1,1 +1,5 @@
 primaryOfficeId,givenNames,familyName,role,mobile,username,email,password
+CRVS_OFFICE_GN001002,Jonathan,Campbell,NATIONAL_SYSTEM_ADMIN,+260921111111,national.admin,superadmin@gmail.com,superadmin
+CRVS_OFFICE_GN001003,Joshua,Mutale,FIELD_AGENT,+260923232323,field.agent,agent@gmail.com,agent
+CRVS_OFFICE_GN001003,Joseph,Musonda,REGISTRATION_AGENT,+260923232323,registration.agent,kalushabwa.agent1@gmail.com,agent
+CRVS_OFFICE_GN001003,Alex,Ngonga,LOCAL_SYSTEM_ADMIN,+260978787878,local.admin,admin@gmail.com,admin

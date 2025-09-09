@@ -47,8 +47,8 @@ export async function certificateHandler(request: Request, h: ResponseToolkit) {
       event: Event.Birth,
       label: {
         id: 'certificates.birth.certificate',
-        defaultMessage: 'Birth Certificate',
-        description: 'The label for a birth certificate'
+        defaultMessage: 'Certificat de naissance',
+        description: 'Espace Certificat de Naissance'
       },
       isDefault: true,
       fee: {

@@ -1,65 +1,73 @@
 import { countryLogo } from '@countryconfig/api/application/country-logo'
 
 export const applicationConfig = {
-  APPLICATION_NAME: 'Farajaland CRS',
+  APPLICATION_NAME: 'Guinea CRVS',
+
   BIRTH: {
-    REGISTRATION_TARGET: 30,
-    LATE_REGISTRATION_TARGET: 365,
+    REGISTRATION_TARGET: 30, // Within 30 days
+    LATE_REGISTRATION_TARGET: 365, // After 365 days
     FEE: {
-      ON_TIME: 0,
-      LATE: 5.5,
-      DELAYED: 15
+      ON_TIME: 500, // 500 GNF
+      LATE: 300, // 300 GNF
+      DELAYED: 10202 // 10202 GNF
     },
     PRINT_IN_ADVANCE: true
   },
-  COUNTRY_LOGO: countryLogo,
+
+  COUNTRY_LOGO: 'https://gifex.com/fr/wp-content/uploads/40860/Armoiries-de-la-Guinee.png',
+
+  SYSTEM_IANA_TIMEZONE: 'Africa/Conakry', // fuseau officiel pour la Guinée
+
   CURRENCY: {
-    languagesAndCountry: ['en-US'],
-    isoCode: 'USD'
+    languagesAndCountry: ['fr-GN'],
+    isoCode: 'GNF'
   },
+
   DEATH: {
-    REGISTRATION_TARGET: 45,
+    REGISTRATION_TARGET: 20, // Within 20 days
+    LATE_REGISTRATION_TARGET: 15, // After 15 days
     FEE: {
-      ON_TIME: 0,
-      DELAYED: 0
+      ON_TIME: 2000, // 2000 GNF
+      LATE: 4000 // 4000 GNF
     },
     PRINT_IN_ADVANCE: true
   },
-  PHONE_NUMBER_PATTERN: '^0(7|9)[0-9]{8}$',
-  NID_NUMBER_PATTERN: '^[0-9]{10}$',
+
+  PHONE_NUMBER_PATTERN: '^(\\+224|224)?[2567][0-9]{7}$', 
+
+  NID_NUMBER_PATTERN: '^[0-9]{9,12}$', 
+
   LOGIN_BACKGROUND: {
-    backgroundColor: '36304E'
+    backgroundColor: 'FFFFFF' 
   },
+
   MARRIAGE: {
-    REGISTRATION_TARGET: 45,
+    REGISTRATION_TARGET: 45, // Within 45 days
+    LATE_REGISTRATION_TARGET: 20, // After 20 days
     FEE: {
-      ON_TIME: 10,
-      DELAYED: 45
+      ON_TIME: 5000, // 5000 GNF
+      LATE: 3500 // 3500 GNF
     },
     PRINT_IN_ADVANCE: true
   },
-  FIELD_AGENT_AUDIT_LOCATIONS: 'DISTRICT',
-  DECLARATION_AUDIT_LOCATIONS: 'DISTRICT',
+
+  FIELD_AGENT_AUDIT_LOCATIONS: 'PREFECTURE',
+  DECLARATION_AUDIT_LOCATIONS: 'SOUS_PREFECTURE',
+
   FEATURES: {
     DEATH_REGISTRATION: true,
-    MARRIAGE_REGISTRATION: false,
+    MARRIAGE_REGISTRATION: true,
     EXTERNAL_VALIDATION_WORKQUEUE: false,
-    PRINT_DECLARATION: false,
+    PRINT_DECLARATION: true,
     DATE_OF_BIRTH_UNKNOWN: true
   },
-  USER_NOTIFICATION_DELIVERY_METHOD: 'email', // or 'sms', or '' ... You can use 'sms' for WhatsApp
-  INFORMANT_NOTIFICATION_DELIVERY_METHOD: 'email', // or 'sms', or '' ... You can use 'sms' for WhatsApp
+
+  USER_NOTIFICATION_DELIVERY_METHOD: 'sms', 
+  INFORMANT_NOTIFICATION_DELIVERY_METHOD: 'sms', 
+
   SIGNATURE_REQUIRED_FOR_ROLES: ['LOCAL_REGISTRAR', 'NATIONAL_REGISTRAR'],
+
   SEARCH_DEFAULT_CRITERIA: 'TRACKING_ID'
-  /*
-   * SEARCH_DEFAULT_CRITERIA's value can be one of the following
-   * | 'TRACKING_ID',
-   * | 'REGISTRATION_NUMBER',
-   * | 'NATIONAL_ID',
-   * | 'NAME',
-   * | 'PHONE_NUMBER',
-   * | 'EMAIL'
-   */
 }
 
 export const COUNTRY_WIDE_CRUDE_DEATH_RATE = 10
@@ -92,5 +100,10 @@ export const notificationForRecord: NotificationFlags = {
     'sent-for-approval': true,
     registered: true,
     'sent-for-updates': true
+  },
+  MARRIAGE: {
+    'sent-notification': true,
+    'sent-for-approval': true,
+    registered: true
   }
 }

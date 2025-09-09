@@ -1,0 +1,28 @@
+General,Configuration
+System name,Guinea CRVS
+Goverment logo,https://gifex.com/fr/wp-content/uploads/40860/Armoiries-de-la-Guinee.png
+Currency,GNF
+Phone number regex,"2,240,145,215,456"
+Unique Identification Number (UIN) e.g. National ID,224,
+Birth,
+Legally specified time period,Within 30 days
+Late registration time period,
+Delayed registration time period,After 365 days
+,
+Within legally specified fee,500 GNF
+Late registration fee,300 GNF
+Delayed registration fee,10202 GNF
+,
+Death,
+Legally specified time period,Within 20 days
+Late registration time period,After 15 days
+,
+Within legally specified fee,2000 GNF
+Late registration fee,4000 GNF
+,
+Marriage,
+Legally specified time period,Within 45 days
+Late registration time period,After 20 days
+,
+Within legally specified fee,5000 GNF
+Late registration fee,3500 GNF

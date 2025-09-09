@@ -1,12 +1,7 @@
+/* eslint-disable prettier/prettier */
 /*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- *
- * OpenCRVS is also distributed under the terms of the Civil Registration
- * & Healthcare Disclaimer located at http://opencrvs.org/license.
- *
- * Copyright (C) The OpenCRVS Authors located at https://github.com/opencrvs/opencrvs-core/blob/master/AUTHORS.
+ * Adaptation OpenCRVS pour la Guinée
+ * Licence : MPL 2.0
  */
 import {
   readCSVToJSON,
@@ -32,10 +27,6 @@ type HumdataLocation = {
   admin3Pcode?: string
   admin3Name_en?: string
   admin3Name_alias?: string
-
-  admin4Pcode?: string
-  admin4Name_en?: string
-  admin4Name_alias?: string
 }
 
 type Facility = {
@@ -55,60 +46,79 @@ type Location = {
   statistics?: LocationStatistic['years']
 }
 
+type ApplicationSetting = {
+  General: string
+  Configuration: string
+}
+
 const JURISDICTION_TYPE = [
-  'STATE',
-  'DISTRICT',
-  'LOCATION_LEVEL_3',
-  'LOCATION_LEVEL_4',
-  'LOCATION_LEVEL_5'
+  'COUNTRY',
+  'REGION',
+  'PREFECTURE',
+  'SOUS_PREFECTURE'
 ] as const
 
 export async function locationsHandler(_: Request, h: ResponseToolkit) {
-  const [humdataLocations, healthFacilities, crvsFacilities, statistics] =
-    await Promise.all([
-      readCSVToJSON<HumdataLocation[]>(
-        './src/data-seeding/locations/source/locations.csv'
-      ),
-      readCSVToJSON<Facility[]>(
-        './src/data-seeding/locations/source/health-facilities.csv'
-      ),
-      readCSVToJSON<Facility[]>(
-        './src/data-seeding/locations/source/crvs-facilities.csv'
-      ),
-      getStatistics()
-    ])
+  const [
+    humdataLocations,
+    healthFacilities,
+    crvsFacilities,
+    statistics,
+    applicationSettings
+  ] = await Promise.all([
+    readCSVToJSON<HumdataLocation[]>(
+      './src/data-seeding/locations/source/locations.csv'
+    ),
+    readCSVToJSON<Facility[]>(
+      './src/data-seeding/locations/source/health_facilities.csv'
+    ),
+    readCSVToJSON<Facility[]>(
+      './src/data-seeding/locations/source/crvs-facilities.csv'
+    ),
+    getStatistics(),
+    readCSVToJSON<ApplicationSetting[]>(
+      './src/data-seeding/locations/source/application_setting.csv'
+    )
+  ])
+
   const locations = new Map<string, Location>()
   const statisticsMap = extractStatisticsMap(statistics)
-  humdataLocations.forEach((humdataLocation) => {
-    ;([1, 2, 3, 4] as const).forEach((locationLevel) => {
-      const id = humdataLocation[`admin${locationLevel}Pcode`]
+
+  humdataLocations.forEach((loc) => {
+    ;([0, 1, 2, 3] as const).forEach((level) => {
+      const id = loc[`admin${level}Pcode` as keyof HumdataLocation] as string
       if (id) {
+        const name = loc[`admin${level}Name_en` as keyof HumdataLocation] as string
+        const alias =
+          (loc[`admin${level}Name_alias` as keyof HumdataLocation] as string) ??
+          name
+        const parent =
+          level === 0
+            ? 'Location/0'
+            : `Location/${loc[`admin${(level - 1) as 0 | 1 | 2}Pcode`]}`
+
         locations.set(id, {
           id,
-          name: humdataLocation[`admin${locationLevel}Name_en`]!,
-          alias: humdataLocation[`admin${locationLevel}Name_alias`]!,
-          partOf:
-            locationLevel == 1
-              ? 'Location/0'
-              : `Location/${
-                  humdataLocation[
-                    `admin${(locationLevel - 1) as 1 | 2 | 3}Pcode`
-                  ]
-                }`,
+          name,
+          alias,
+          partOf: parent,
           locationType: 'ADMIN_STRUCTURE',
-          jurisdictionType: JURISDICTION_TYPE[locationLevel - 1],
+          jurisdictionType: JURISDICTION_TYPE[level],
           statistics: statisticsMap.get(id)?.years
         })
       }
     })
   })
-  ;[...healthFacilities, ...crvsFacilities].forEach((healthFacility) => {
-    locations.set(healthFacility.id, {
-      ...healthFacility,
-      // We haven't set aliases for the facilities in farajaland
-      // that's why just using the name instead
-      alias: healthFacility.name
+
+  ;[...healthFacilities, ...crvsFacilities].forEach((facility) => {
+    locations.set(facility.id, {
+      ...facility,
+      alias: facility.name
     })
   })
-  return h.response(Array.from(locations.values()))
+
+  return h.response({
+    locations: Array.from(locations.values()),
+    applicationSettings 
+  })
 }

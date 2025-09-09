@@ -16,7 +16,7 @@ window.config = {
   AUTH_API_URL: `${scheme}//gateway.${hostname}/auth/`,
   CONFIG_API_URL: `${scheme}//config.${hostname}`,
   // Country code in uppercase ALPHA-3 format
-  COUNTRY: 'FAR',
+  COUNTRY: 'GN',
   LANGUAGES: 'en,fr',
   CLIENT_APP_URL: `${scheme}//register.${hostname}/`,
   COUNTRY_CONFIG_URL: `${scheme}//countryconfig.${hostname}`,
