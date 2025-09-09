@@ -58,6 +58,11 @@ const JURISDICTION_TYPE = [
   'SOUS_PREFECTURE'
 ] as const
 
+// Helper pour forcer un retour tableau
+function ensureArray<T>(data: T | T[]): T[] {
+  return Array.isArray(data) ? data : [data]
+}
+
 export async function locationsHandler(_: Request, h: ResponseToolkit) {
   const [
     humdataLocations,
@@ -66,19 +71,19 @@ export async function locationsHandler(_: Request, h: ResponseToolkit) {
     statistics,
     applicationSettings
   ] = await Promise.all([
-    readCSVToJSON<HumdataLocation[]>(
+    readCSVToJSON<HumdataLocation>(
       './src/data-seeding/locations/source/locations.csv'
-    ),
-    readCSVToJSON<Facility[]>(
+    ).then(ensureArray),
+    readCSVToJSON<Facility>(
       './src/data-seeding/locations/source/health_facilities.csv'
-    ),
-    readCSVToJSON<Facility[]>(
+    ).then(ensureArray),
+    readCSVToJSON<Facility>(
       './src/data-seeding/locations/source/crvs-facilities.csv'
-    ),
+    ).then(ensureArray),
     getStatistics(),
-    readCSVToJSON<ApplicationSetting[]>(
+    readCSVToJSON<ApplicationSetting>(
       './src/data-seeding/locations/source/application_setting.csv'
-    )
+    ).then(ensureArray)
   ])
 
   const locations = new Map<string, Location>()
@@ -119,6 +124,6 @@ export async function locationsHandler(_: Request, h: ResponseToolkit) {
 
   return h.response({
     locations: Array.from(locations.values()),
-    applicationSettings 
+    applicationSettings
   })
 }
