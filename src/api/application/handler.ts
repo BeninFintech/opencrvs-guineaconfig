@@ -1,14 +1,7 @@
 /*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- *
- * OpenCRVS is also distributed under the terms of the Civil Registration
- * & Healthcare Disclaimer located at http://opencrvs.org/license.
- *
- * Copyright (C) The OpenCRVS Authors located at https://github.com/opencrvs/opencrvs-core/blob/master/AUTHORS.
+ * Adaptation OpenCRVS pour la Guinée
+ * Licence : MPL 2.0
  */
-
 import { Request, ResponseToolkit } from '@hapi/hapi'
 import { applicationConfig } from './application-config'
 import { readCSVToJSON } from '@countryconfig/utils'
@@ -47,36 +40,40 @@ interface Statistic {
   crude_birth_rate: number
 }
 
+// Helper pour garantir un tableau
+function ensureArray<T>(data: T | T[]): T[] {
+  return Array.isArray(data) ? data : [data]
+}
+
 // Handler pour les CRVS facilities
 export async function crvsHandler(_: Request, h: ResponseToolkit) {
   const filePath = './src/data-seeding/locations/source/crvs-facilities.csv'
-  const facilities: HealthFacility[] = await readCSVToJSON(filePath)
+  const facilities = ensureArray(await readCSVToJSON<HealthFacility>(filePath))
   return h.response(facilities)
 }
 
 // Handler pour les health facilities 
 export async function healthFacilitiesHandler(_: Request, h: ResponseToolkit) {
-  const filePath = './src/data-seeding/locations/source/health-facilities.csv'
-  const facilities: HealthFacility[] = await readCSVToJSON(filePath)
+  const filePath = './src/data-seeding/locations/source/health_facilities.csv'
+  const facilities = ensureArray(await readCSVToJSON<HealthFacility>(filePath))
   return h.response(facilities)
 }
 
 // Handler pour les locations
 export async function locationsHandler(_: Request, h: ResponseToolkit) {
   const filePath = './src/data-seeding/locations/source/locations.csv'
-  const locations: Location[] = await readCSVToJSON(filePath)
+  const locations = ensureArray(await readCSVToJSON<Location>(filePath))
   return h.response(locations) 
 }
 
 // Handler pour les statistics
 export async function statisticsHandler(_: Request, h: ResponseToolkit) {
   const filePath = './src/data-seeding/locations/source/statistics.csv'
-  const statistics: Statistic[] = await readCSVToJSON(filePath)
+  const statistics = ensureArray(await readCSVToJSON<Statistic>(filePath))
   return h.response(statistics)
 }
+
 // Handler pour la configuration de l'application
 export async function applicationConfigHandler(_: Request, h: ResponseToolkit) {
-  const res = JSON.stringify(applicationConfig)
-  return h.response(res)
+  return h.response(applicationConfig)
 }
-
