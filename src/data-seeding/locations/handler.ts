@@ -121,6 +121,7 @@ export async function locationsHandler(_: Request, h: ResponseToolkit) {
       alias: facility.name
     })
   })
+  
 
   return h.response({
     locations: Array.from(locations.values()),
