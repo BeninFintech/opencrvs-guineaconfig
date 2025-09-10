@@ -68,8 +68,8 @@ export async function locationsHandler(_: Request, h: ResponseToolkit) {
     humdataLocations,
     healthFacilities,
     crvsFacilities,
-    statistics,
-    applicationSettings
+    statistics
+    // applicationSettings
   ] = await Promise.all([
     readCSVToJSON<HumdataLocation>(
       './src/data-seeding/locations/source/locations.csv'
@@ -81,9 +81,9 @@ export async function locationsHandler(_: Request, h: ResponseToolkit) {
       './src/data-seeding/locations/source/crvs-facilities.csv'
     ).then(ensureArray),
     getStatistics(),
-    readCSVToJSON<ApplicationSetting>(
-      './src/data-seeding/locations/source/application_setting.csv'
-    ).then(ensureArray)
+    // readCSVToJSON<ApplicationSetting>(
+    //   './src/data-seeding/locations/source/application_setting.csv'
+    // ).then(ensureArray)
   ])
 
   const locations = new Map<string, Location>()

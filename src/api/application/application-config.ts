@@ -1,63 +1,22 @@
-// src/api/application/application-config.ts
+import { countryLogo } from '@countryconfig/api/application/country-logo'
 
-export type FeeConfig = {
-  ON_TIME: number
-  LATE: number
-  DELAYED?: number
-}
-
-export type EventConfig = {
-  REGISTRATION_TARGET: number
-  LATE_REGISTRATION_TARGET: number
-  FEE: FeeConfig
-  PRINT_IN_ADVANCE: boolean
-}
-
-export type ApplicationConfig = {
-  APPLICATION_NAME: string
-  COUNTRY_LOGO: string
-  SYSTEM_IANA_TIMEZONE: string
-  CURRENCY: {
-    languagesAndCountry: string[]
-    isoCode: string
-  }
-  PHONE_NUMBER_PATTERN: string
-  NID_NUMBER_PATTERN: string
-  LOGIN_BACKGROUND: {
-    backgroundColor: string
-  }
-  BIRTH: EventConfig
-  DEATH: EventConfig
-  MARRIAGE: EventConfig
-  FIELD_AGENT_AUDIT_LOCATIONS: string
-  DECLARATION_AUDIT_LOCATIONS: string
-  FEATURES: {
-    DEATH_REGISTRATION: boolean
-    MARRIAGE_REGISTRATION: boolean
-    EXTERNAL_VALIDATION_WORKQUEUE: boolean
-    PRINT_DECLARATION: boolean
-    DATE_OF_BIRTH_UNKNOWN: boolean
-  }
-  USER_NOTIFICATION_DELIVERY_METHOD: 'sms' | 'email'
-  INFORMANT_NOTIFICATION_DELIVERY_METHOD: 'sms' | 'email'
-  SIGNATURE_REQUIRED_FOR_ROLES: string[]
-  SEARCH_DEFAULT_CRITERIA: string
-}
-
-export const applicationConfig: ApplicationConfig = {
+export const applicationConfig = {
   APPLICATION_NAME: 'Guinea CRVS',
 
   BIRTH: {
-    REGISTRATION_TARGET: 30,
-    LATE_REGISTRATION_TARGET: 365,
-    FEE: { ON_TIME: 500, LATE: 300, DELAYED: 10202 },
+    REGISTRATION_TARGET: 30, // Within 30 days
+    LATE_REGISTRATION_TARGET: 365, // After 365 days
+    FEE: {
+      ON_TIME: 500, // 500 GNF
+      LATE: 300, // 300 GNF
+      DELAYED: 10202 // 10202 GNF
+    },
     PRINT_IN_ADVANCE: true
   },
 
-  COUNTRY_LOGO:
-    'https://gifex.com/fr/wp-content/uploads/40860/Armoiries-de-la-Guinee.png',
+  COUNTRY_LOGO: 'https://gifex.com/fr/wp-content/uploads/40860/Armoiries-de-la-Guinee.png',
 
-  SYSTEM_IANA_TIMEZONE: 'Africa/Conakry',
+  SYSTEM_IANA_TIMEZONE: 'Africa/Conakry', // fuseau officiel pour la Guinée
 
   CURRENCY: {
     languagesAndCountry: ['fr-GN'],
@@ -65,24 +24,30 @@ export const applicationConfig: ApplicationConfig = {
   },
 
   DEATH: {
-    REGISTRATION_TARGET: 20,
-    LATE_REGISTRATION_TARGET: 15,
-    FEE: { ON_TIME: 2000, LATE: 4000 },
+    REGISTRATION_TARGET: 20, // Within 20 days
+    LATE_REGISTRATION_TARGET: 15, // After 15 days
+    FEE: {
+      ON_TIME: 2000, // 2000 GNF
+      LATE: 4000 // 4000 GNF
+    },
     PRINT_IN_ADVANCE: true
   },
 
-  PHONE_NUMBER_PATTERN: '^(\\+224|224)?[2567][0-9]{7}$',
+  PHONE_NUMBER_PATTERN: '^(\\+224|224)?[2567][0-9]{7}$', 
 
-  NID_NUMBER_PATTERN: '^[0-9]{9,12}$',
+  NID_NUMBER_PATTERN: '^[0-9]{9,12}$', 
 
   LOGIN_BACKGROUND: {
-    backgroundColor: 'FFFFFF'
+    backgroundColor: 'FFFFFF' 
   },
 
   MARRIAGE: {
-    REGISTRATION_TARGET: 45,
-    LATE_REGISTRATION_TARGET: 20,
-    FEE: { ON_TIME: 5000, LATE: 3500 },
+    REGISTRATION_TARGET: 45, // Within 45 days
+    LATE_REGISTRATION_TARGET: 20, // After 20 days
+    FEE: {
+      ON_TIME: 5000, // 5000 GNF
+      LATE: 3500 // 3500 GNF
+    },
     PRINT_IN_ADVANCE: true
   },
 
@@ -97,8 +62,8 @@ export const applicationConfig: ApplicationConfig = {
     DATE_OF_BIRTH_UNKNOWN: true
   },
 
-  USER_NOTIFICATION_DELIVERY_METHOD: 'sms',
-  INFORMANT_NOTIFICATION_DELIVERY_METHOD: 'sms',
+  USER_NOTIFICATION_DELIVERY_METHOD: 'sms', 
+  INFORMANT_NOTIFICATION_DELIVERY_METHOD: 'sms', 
 
   SIGNATURE_REQUIRED_FOR_ROLES: ['LOCAL_REGISTRAR', 'NATIONAL_REGISTRAR'],
 
@@ -107,7 +72,7 @@ export const applicationConfig: ApplicationConfig = {
 
 export const COUNTRY_WIDE_CRUDE_DEATH_RATE = 10
 
-export type EventNotificationFlags = {
+type EventNotificationFlags = {
   'sent-notification'?: boolean
   'sent-notification-for-review'?: boolean
   'sent-for-approval'?: boolean
@@ -115,7 +80,7 @@ export type EventNotificationFlags = {
   'sent-for-updates'?: boolean
 }
 
-export type NotificationFlags = {
+type NotificationFlags = {
   BIRTH?: EventNotificationFlags
   DEATH?: EventNotificationFlags
   MARRIAGE?: EventNotificationFlags

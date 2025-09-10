@@ -1,5 +1,341 @@
-admin0Pcode,admin0Name_en,admin0Name_fr,admin1Pcode,admin1Name_en,admin1Name_fr,admin2Pcode,admin2Name_en,admin2Name_fr,admin3Pcode,admin3Name_en,admin3Name_fr
-GN,Guinea,Guinée,GN-KA,Kindia,Kindia,GN-KA-COY,Coyah,Coyah,GN-KA-COY-MAN,Manéah,Manéah
-GN,Guinea,Guinée,GN-KA,Kindia,Kindia,GN-KA-DUB,Dubréka,Dubréka,GN-KA-DUB-TAN,Tanéné,Tanéné
-GN,Guinea,Guinée,GN-CO,Conakry,Conakry,GN-CO-MAT,Matam,Matam,GN-CO-MAT-BOU,Boulevard,Boulevard
-GN,Guinea,Guinée,GN-CO,Conakry,Conakry,GN-CO-RAT,Ratoma,Ratoma,GN-CO-RAT-KIP,Kipé,Kipé
+admin0Name_en,admin0Name_alias,admin0Pcode,admin1Name_en,admin1Name_alias,admin1Pcode,admin2Name_en,admin2Name_alias,admin2Pcode,admin3Name_en,admin3Name_alias,admin3Pcode
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Boffa Ctre,Boffa Ctre,GN00100101
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Douprou,Douprou,GN00100102
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Koba Tatema,Koba Tatema,GN00100103
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Kolia,Kolia,GN00100104
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Lisso,Lisso,GN00100105
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Mankountan,Mankountan,GN00100106
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Tamita,Tamita,GN00100107
+Guinea,Guinea,GN,Boke,Boke,GN001,Boffa,Boffa,GN001001,Tougnifily,Tougnifily,GN00100108
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Tanene,Tanene,GN00100210
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Bintimodia,Bintimodia,GN00100201
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Boke Ctre,Boke Ctre,GN00100202
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Dabiss,Dabiss,GN00100203
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Kamsar,Kamsar,GN00100204
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Kolaboui,Kolaboui,GN00100206
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Malapouya,Malapouya,GN00100207
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Sangaredi,Sangaredi,GN00100208
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Sansale,Sansale,GN00100209
+Guinea,Guinea,GN,Boke,Boke,GN001,Boke,Boke,GN001002,Kanfarande,Kanfarande,GN00100205
+Guinea,Guinea,GN,Boke,Boke,GN001,Fria,Fria,GN001005,Baguinet,Baguinet,GN00100501
+Guinea,Guinea,GN,Boke,Boke,GN001,Fria,Fria,GN001005,Banguigny,Banguigny,GN00100502
+Guinea,Guinea,GN,Boke,Boke,GN001,Fria,Fria,GN001005,Fria Ctre,Fria Ctre,GN00100503
+Guinea,Guinea,GN,Boke,Boke,GN001,Fria,Fria,GN001005,Tormelin,Tormelin,GN00100504
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Wendou Mbour,Wendou Mbour,GN00100308
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Foulamory,Foulamory,GN00100301
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Gaoual Ctre,Gaoual Ctre,GN00100302
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Kakony,Kakony,GN00100303
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Koumbia,Koumbia,GN00100304
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Kounsitel,Kounsitel,GN00100305
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Malanta,Malanta,GN00100306
+Guinea,Guinea,GN,Boke,Boke,GN001,Gaoual,Gaoual,GN001003,Touba,Touba,GN00100307
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Youkounkoun,Youkounkoun,GN00100407
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Guinguan,Guinguan,GN00100401
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Kamabi,Kamabi,GN00100402
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Koundara Ctre,Koundara Ctre,GN00100403
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Sambailo,Sambailo,GN00100404
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Sareboido,Sareboido,GN00100405
+Guinea,Guinea,GN,Boke,Boke,GN001,Koundara,Koundara,GN001004,Termesse,Termesse,GN00100406
+Guinea,Guinea,GN,Conakry,Conakry,GN002,Conakry,Conakry,GN002001,Dixinn,Dixinn,GN00200101
+Guinea,Guinea,GN,Conakry,Conakry,GN002,Conakry,Conakry,GN002001,Kaloum,Kaloum,GN00200102
+Guinea,Guinea,GN,Conakry,Conakry,GN002,Conakry,Conakry,GN002001,Matam,Matam,GN00200103
+Guinea,Guinea,GN,Conakry,Conakry,GN002,Conakry,Conakry,GN002001,Ratoma,Ratoma,GN00200105
+Guinea,Guinea,GN,Conakry,Conakry,GN002,Conakry,Conakry,GN002001,Matoto,Matoto,GN00200104
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Arfamoussayah,Arfamoussayah,GN00300101
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Banko,Banko,GN00300102
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Bissikrima,Bissikrima,GN00300103
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Dogomet,Dogomet,GN00300105
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Dabola Ctre,Dabola Ctre,GN00300104
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Kankama,Kankama,GN00300106
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Kindoye,Kindoye,GN00300107
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Konendou,Konendou,GN00300108
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dabola,Dabola,GN003001,Ndema,Ndema,GN00300109
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Banora,Banora,GN00300201
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Dialakoro,Dialakoro,GN00300202
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Diatifere,Diatifere,GN00300203
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Dinguiraye Ctre,Dinguiraye Ctre,GN00300204
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Gagnakaly,Gagnakaly,GN00300205
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Kalinko,Kalinko,GN00300206
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Lansanaya,Lansanaya,GN00300207
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Dinguiraye,Dinguiraye,GN003002,Selouma,Selouma,GN00300208
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Beindou,Beindou,GN00300302
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Faranah Ctre,Faranah Ctre,GN00300303
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Gnaleah,Gnaleah,GN00300304
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Heremakono,Heremakono,GN00300305
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Kobikoro,Kobikoro,GN00300306
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Marella,Marella,GN00300307
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Passaya,Passaya,GN00300308
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Sandenia,Sandenia,GN00300309
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Songoyah,Songoyah,GN00300310
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Tiro,Tiro,GN00300311
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Faranah,Faranah,GN003003,Banian,Banian,GN00300301
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Yende Millimou,Yende Millimou,GN00300412
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Yombiro,Yombiro,GN00300413
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Banama,Banama,GN00300402
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Albadariah,Albadariah,GN00300401
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Bardou,Bardou,GN00300403
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Beindou,Beindou,GN00300404
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Fermessadou,Fermessadou,GN00300405
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Firawa,Firawa,GN00300406
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Gbangbadou,Gbangbadou,GN00300407
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Kissidougou Ctre,Kissidougou Ctre,GN00300408
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Kondiadou,Kondiadou,GN00300409
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Manfran,Manfran,GN00300410
+Guinea,Guinea,GN,Faranah,Faranah,GN003,Kissidougou,Kissidougou,GN003004,Sangardo,Sangardo,GN00300411
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Balandougou,Balandougou,GN00400101
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Bate Nafadji,Bate Nafadji,GN00400102
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Boula,Boula,GN00400103
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Gberedou Baranama,Gberedou Baranama,GN00400104
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Kankan Ctre,Kankan Ctre,GN00400105
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Karifamoriah,Karifamoriah,GN00400106
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Koumban,Koumban,GN00400107
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Mamouroudou,Mamouroudou,GN00400108
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Missamana,Missamana,GN00400109
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Moribayah,Moribayah,GN00400110
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Sabadou Baranama,Sabadou Baranama,GN00400111
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Tinti Oulen,Tinti Oulen,GN00400112
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kankan,Kankan,GN004001,Tokounou,Tokounou,GN00400113
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Banankoro,Banankoro,GN00400201
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Damaro,Damaro,GN00400202
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Kerouane Ctre,Kerouane Ctre,GN00400203
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Komodou,Komodou,GN00400204
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Konsankoro,Konsankoro,GN00400205
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Linko,Linko,GN00400206
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Sibiribaro,Sibiribaro,GN00400207
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kerouane,Kerouane,GN004002,Soromaya,Soromaya,GN00400208
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Babila,Babila,GN00400301
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Banfele,Banfele,GN00400303
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Balato,Balato,GN00400302
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Baro,Baro,GN00400304
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Cissela,Cissela,GN00400305
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Douako,Douako,GN00400306
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Doura,Doura,GN00400307
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Kiniero,Kiniero,GN00400308
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Komola Khoura,Komola Khoura,GN00400309
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Koumana,Koumana,GN00400310
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Kouroussa Ctre,Kouroussa Ctre,GN00400311
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Kouroussa,Kouroussa,GN004003,Sanguiana,Sanguiana,GN00400312
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Balandougouba,Balandougouba,GN00400401
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Dialokoro,Dialokoro,GN00400402
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Faralako,Faralako,GN00400403
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Kantoumanina,Kantoumanina,GN00400404
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Kinieran,Kinieran,GN00400405
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Koundian,Koundian,GN00400406
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Koundianakoro,Koundianakoro,GN00400407
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Mandiana Ctre,Mandiana Ctre,GN00400408
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Morodou,Morodou,GN00400409
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Niantanina,Niantanina,GN00400410
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Saladou,Saladou,GN00400411
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Mandiana,Mandiana,GN004004,Sansando,Sansando,GN00400412
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Bankon,Bankon,GN00400501
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Doko,Doko,GN00400502
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Franwalia,Franwalia,GN00400503
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Kiniebakoura,Kiniebakoura,GN00400504
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Kintinian,Kintinian,GN00400505
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Malea,Malea,GN00400506
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Naboun,Naboun,GN00400507
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Niagassola,Niagassola,GN00400508
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Niandankoro,Niandankoro,GN00400509
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Norassoba,Norassoba,GN00400510
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Siguiri Ctre,Siguiri Ctre,GN00400511
+Guinea,Guinea,GN,Kankan,Kankan,GN004,Siguiri,Siguiri,GN004005,Siguirini,Siguirini,GN00400512
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Coyah,Coyah,GN005001,Wonkifong,Wonkifong,GN00500104
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Coyah,Coyah,GN005001,Coyah Ctre,Coyah Ctre,GN00500101
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Coyah,Coyah,GN005001,Maneah,Maneah,GN00500103
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Coyah,Coyah,GN005001,Kouria,Kouria,GN00500102
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Tanene,Tanene,GN00500208
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Badi,Badi,GN00500201
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Dubreka Ctre,Dubreka Ctre,GN00500202
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Falessade,Falessade,GN00500203
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Khorira,Khorira,GN00500204
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Ouassou,Ouassou,GN00500205
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Dubreka,Dubreka,GN005002,Tondon,Tondon,GN00500207
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Kakossa,Kakossa,GN00500306
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Allassoyah,Allassoyah,GN00500301
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Benty,Benty,GN00500302
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Farmoriah,Farmoriah,GN00500303
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Forecariah Ctre,Forecariah Ctre,GN00500304
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Kaback,Kaback,GN00500305
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Kaliah,Kaliah,GN00500307
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Maferinya,Maferinya,GN00500308
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Moussayah,Moussayah,GN00500309
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Forecariah,Forecariah,GN005003,Sikhourou,Sikhourou,GN00500310
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Bangouya,Bangouya,GN00500401
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Damakania,Damakania,GN00500402
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Friguiagbe,Friguiagbe,GN00500403
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Kindia Ctre,Kindia Ctre,GN00500404
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Kolente,Kolente,GN00500405
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Madina Oula,Madina Oula,GN00500406
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Mambia,Mambia,GN00500407
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Molota,Molota,GN00500408
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Samaya,Samaya,GN00500409
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Kindia,Kindia,GN005004,Sougueta,Sougueta,GN00500410
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Telemele Ctre,Telemele Ctre,GN00500513
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Bourouwal,Bourouwal,GN00500501
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Daramagnaky,Daramagnaky,GN00500502
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Gougoudje,Gougoudje,GN00500503
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Koba,Koba,GN00500504
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Kollet,Kollet,GN00500505
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Konsotami,Konsotami,GN00500506
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Missira,Missira,GN00500507
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Santou,Santou,GN00500508
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Sinta,Sinta,GN00500510
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Sogolon,Sogolon,GN00500511
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Thionthian,Thionthian,GN00500514
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Sarekali,Sarekali,GN00500509
+Guinea,Guinea,GN,Kindia,Kindia,GN005,Telimele,Telimele,GN005005,Tarihoye,Tarihoye,GN00500512
+Guinea,Guinea,GN,Labe,Labe,GN006,Koubia,Koubia,GN006001,Matakaou,Matakaou,GN00600104
+Guinea,Guinea,GN,Labe,Labe,GN006,Koubia,Koubia,GN006001,Fafaya,Fafaya,GN00600101
+Guinea,Guinea,GN,Labe,Labe,GN006,Koubia,Koubia,GN006001,Gadha Woundou,Gadha Woundou,GN00600102
+Guinea,Guinea,GN,Labe,Labe,GN006,Koubia,Koubia,GN006001,Koubia Ctre,Koubia Ctre,GN00600103
+Guinea,Guinea,GN,Labe,Labe,GN006,Koubia,Koubia,GN006001,Missira,Missira,GN00600105
+Guinea,Guinea,GN,Labe,Labe,GN006,Koubia,Koubia,GN006001,Pilimini,Pilimini,GN00600106
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Tountourou,Tountourou,GN00600213
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Garambe,Garambe,GN00600205
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Daralabe,Daralabe,GN00600202
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Dalein,Dalein,GN00600201
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Diari,Diari,GN00600203
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Dionfo,Dionfo,GN00600204
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Hafia,Hafia,GN00600206
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Kaalan,Kaalan,GN00600207
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Labe Ctre,Labe Ctre,GN00600209
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Kouramangui,Kouramangui,GN00600208
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Noussy,Noussy,GN00600210
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Popodara,Popodara,GN00600211
+Guinea,Guinea,GN,Labe,Labe,GN006,Labe,Labe,GN006002,Sannou,Sannou,GN00600212
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Balaya,Balaya,GN00600301
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Diontou,Diontou,GN00600302
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Herico,Herico,GN00600303
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Korbe,Korbe,GN00600304
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Lafou,Lafou,GN00600305
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Lelouma Ctre,Lelouma Ctre,GN00600306
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Linsan Saran,Linsan Saran,GN00600307
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Manda,Manda,GN00600308
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Parawol,Parawol,GN00600309
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Sagale,Sagale,GN00600310
+Guinea,Guinea,GN,Labe,Labe,GN006,Lelouma,Lelouma,GN006003,Tianguel Bori,Tianguel Bori,GN00600311
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Yimbering,Yimbering,GN00600413
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Balaki,Balaki,GN00600401
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Donghol Sigon,Donghol Sigon,GN00600402
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Dougountouny,Dougountouny,GN00600403
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Gayah,Gayah,GN00600405
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Fougou,Fougou,GN00600404
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Hidayatou,Hidayatou,GN00600406
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Lebekeren,Lebekeren,GN00600407
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Madina Wora,Madina Wora,GN00600408
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Mali Ctre,Mali Ctre,GN00600409
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Salambande,Salambande,GN00600410
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Telire,Telire,GN00600411
+Guinea,Guinea,GN,Labe,Labe,GN006,Mali,Mali,GN006004,Touba,Touba,GN00600412
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Fatako,Fatako,GN00600501
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Fello Koundoua,Fello Koundoua,GN00600502
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Kansangui,Kansangui,GN00600503
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Kolangui,Kolangui,GN00600505
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Koin,Koin,GN00600504
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Kolet,Kolet,GN00600506
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Konah,Konah,GN00600507
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Kouratongo,Kouratongo,GN00600508
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Tangali,Tangali,GN00600509
+Guinea,Guinea,GN,Labe,Labe,GN006,Tougue,Tougue,GN006005,Tougue Ctre,Tougue Ctre,GN00600510
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Bodie,Bodie,GN00700101
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Dalaba Ctre,Dalaba Ctre,GN00700102
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Ditinn,Ditinn,GN00700103
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Kaala,Kaala,GN00700104
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Kankalabe,Kankalabe,GN00700105
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Kebali,Kebali,GN00700106
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Koba,Koba,GN00700107
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Mafara,Mafara,GN00700108
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Mitty,Mitty,GN00700109
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Dalaba,Dalaba,GN007001,Mombeyah,Mombeyah,GN00700110
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Bouliwel,Bouliwel,GN00700201
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Dounet,Dounet,GN00700202
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Gongoret,Gongoret,GN00700203
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Kegneko,Kegneko,GN00700204
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Kounkoure,Kounkoure,GN00700205
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Mamou Ctre,Mamou Ctre,GN00700206
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Nyagara,Nyagara,GN00700207
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Oure Kaba,Oure Kaba,GN00700208
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Poredaka,Poredaka,GN00700209
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Saramoussaya,Saramoussaya,GN00700210
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Soyah,Soyah,GN00700211
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Teguereyah,Teguereyah,GN00700212
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Timbo,Timbo,GN00700213
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Mamou,Mamou,GN007002,Tolo,Tolo,GN00700214
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Bantignel,Bantignel,GN00700301
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Brouwal Tape,Brouwal Tape,GN00700302
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Donghol Touma,Donghol Touma,GN00700303
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Gongoret,Gongoret,GN00700304
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Ley Miro,Ley Miro,GN00700305
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Maci,Maci,GN00700306
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Ninguelande,Ninguelande,GN00700307
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Sintali,Sintali,GN00700310
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Pita Ctre,Pita Ctre,GN00700308
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Sangareah,Sangareah,GN00700309
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Timbi Madina,Timbi Madina,GN00700311
+Guinea,Guinea,GN,Mamou,Mamou,GN007,Pita,Pita,GN007003,Timbi Touni,Timbi Touni,GN00700312
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Beyla Ctre,Beyla Ctre,GN00800101
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Boola,Boola,GN00800102
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Diassodou,Diassodou,GN00800104
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Fouala,Fouala,GN00800105
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Gbakedou,Gbakedou,GN00800106
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Gbessoba,Gbessoba,GN00800107
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Karala,Karala,GN00800108
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Koumandou,Koumandou,GN00800109
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Moussadou,Moussadou,GN00800110
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Nionsomoridou,Nionsomoridou,GN00800111
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Sakourala,Sakourala,GN00800112
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Samana,Samana,GN00800113
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Sinko,Sinko,GN00800114
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Beyla,Beyla,GN008001,Diaraguerela,Diaraguerela,GN00800103
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Bolodou,Bolodou,GN00800201
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Fangamadou,Fangamadou,GN00800202
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Gueckedou Ctre,Gueckedou Ctre,GN00800203
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Guendembou,Guendembou,GN00800204
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Kassadou,Kassadou,GN00800205
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Koundou,Koundou,GN00800206
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Nongoa,Nongoa,GN00800207
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Ouende Kenema,Ouende Kenema,GN00800208
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Termassadou,Termassadou,GN00800210
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Gueckedou,Gueckedou,GN008002,Tekoulo,Tekoulo,GN00800209
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Bossou,Bossou,GN00800301
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Foumbadou,Foumbadou,GN00800302
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Gama Berema,Gama Berema,GN00800303
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Gueasso,Gueasso,GN00800304
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Kokota,Kokota,GN00800305
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Laine,Laine,GN00800306
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Lola Ctre,Lola Ctre,GN00800307
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Nzoo,Nzoo,GN00800308
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Lola,Lola,GN008003,Tounkarata,Tounkarata,GN00800309
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Vasseredou,Vasseredou,GN00800414
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Watanka,Watanka,GN00800415
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Balizia,Balizia,GN00800401
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Binikala,Binikala,GN00800402
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Bofossou,Bofossou,GN00800403
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Daro,Daro,GN00800404
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Fassankoni,Fassankoni,GN00800405
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Kouankan,Kouankan,GN00800406
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Koyamah,Koyamah,GN00800407
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Macenta Ctre,Macenta Ctre,GN00800408
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Nzebela,Nzebela,GN00800409
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Ouremai,Ouremai,GN00800410
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Panziazou,Panziazou,GN00800411
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Sengbedou,Sengbedou,GN00800412
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Macenta,Macenta,GN008004,Seredou,Seredou,GN00800413
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Womey,Womey,GN00800510
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Yalenzou,Yalenzou,GN00800511
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Bounouma,Bounouma,GN00800501
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Gouecke,Gouecke,GN00800502
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Kobela,Kobela,GN00800503
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Koropara,Koropara,GN00800504
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Koule,Koule,GN00800505
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Nzerekore Ctre,Nzerekore Ctre,GN00800506
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Pale,Pale,GN00800507
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Samoe,Samoe,GN00800508
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Nzerekore,Nzerekore,GN008005,Soulouta,Soulouta,GN00800509
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Yomou Ctre,Yomou Ctre,GN00800607
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Banie,Banie,GN00800601
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Bheeta,Bheeta,GN00800602
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Bignamou,Bignamou,GN00800603
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Bowe,Bowe,GN00800604
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Diecke,Diecke,GN00800605
+Guinea,Guinea,GN,GN,Nzerekore,GN008,Yomou,Yomou,GN008006,Pela,Pela,GN00800606
