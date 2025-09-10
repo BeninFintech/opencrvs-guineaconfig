@@ -123,8 +123,5 @@ export async function locationsHandler(_: Request, h: ResponseToolkit) {
   })
   
 
-  return h.response({
-    locations: Array.from(locations.values()),
-    applicationSettings
-  })
+  return h.response(Array.from(locations.values()))
 }
